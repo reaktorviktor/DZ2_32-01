@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.user-form {
+    margin-bottom: 20px;
+}
+
+.user-form input {
+    margin-right: 10px;
+}
+
+.user-form button {
+    cursor: pointer;
+}
+
+.user-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.user-table th, .user-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.user-table th {
+    background-color: #f2f2f2;
+}
